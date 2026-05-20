@@ -31,6 +31,7 @@ jobs:
         run: |
           python scripts/collect_bids.py \
             --config config/sources.json \
+            --url-config config/target_urls.json \
             --output data/bids.json \
             --csv data/bids.csv \
             --log data/collector.log

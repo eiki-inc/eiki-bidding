@@ -1,0 +1,4 @@
+{
+  "_note": "Add pages you want to read directly. Each enabled URL is read on every run, and matching bid pages or links are added to data/bids.json.",
+  "sources": []
+}

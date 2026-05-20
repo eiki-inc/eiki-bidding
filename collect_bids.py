@@ -21,6 +21,7 @@ from typing import Iterable
 JST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = ROOT / "config" / "sources.json"
+DEFAULT_URL_CONFIG = ROOT / "config" / "target_urls.json"
 DEFAULT_OUTPUT = ROOT / "data" / "bids.json"
 DEFAULT_CSV = ROOT / "data" / "bids.csv"
 DEFAULT_LOG = ROOT / "data" / "collector.log"
@@ -354,6 +355,56 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
     return records, messages
 
 
+def collect_specified_url_source(source: dict, config: dict, retrieved_at: str) -> tuple[list[dict], list[str]]:
+    collector = config["collector"]
+    include_keywords = collector["include_keywords"]
+    exclude_keywords = collector["civil_engineering_exclude_keywords"]
+    non_case_keywords = collector.get("non_case_keywords", [])
+    timeout = int(collector.get("request_timeout_seconds", 30))
+    user_agent = collector.get("user_agent", "PublicBidResearchBot/0.1")
+    source_url = source["url"]
+    records: list[dict] = []
+    messages: list[str] = []
+
+    try:
+        document, content_type = fetch_html(source_url, timeout, user_agent)
+    except urllib.error.HTTPError as exc:
+        return [], [f"{source['id']}: HTTP {exc.code} {source_url}"]
+    except urllib.error.URLError as exc:
+        return [], [f"{source['id']}: URL error {exc.reason} {source_url}"]
+    except TimeoutError:
+        return [], [f"{source['id']}: timeout {source_url}"]
+
+    _links, page_title, page_text = parse_links(source_url, document)
+    title = normalize_space(source.get("title") or page_title or source_url)
+    haystack = f"{title} {page_text[:3000]} {source_url}"
+    if (
+        contains_any(haystack, include_keywords)
+        and not contains_any(haystack, exclude_keywords)
+        and not contains_any(haystack, non_case_keywords)
+    ):
+        records.append(
+            {
+                "retrieved_at": retrieved_at,
+                "prefecture": source.get("prefecture", ""),
+                "agency": source.get("agency", ""),
+                "case_type": infer_case_type(title, source.get("case_type_hint", "")),
+                "title": title,
+                "announcement_date": parse_announcement_date(haystack),
+                "url": source_url,
+                "source": source.get("source_name", "指定URL"),
+                "source_id": source.get("id", ""),
+                "source_url": source_url,
+            }
+        )
+
+    linked_records, linked_messages = collect_generic_html_source(source, config, retrieved_at)
+    records.extend(linked_records)
+    messages.extend(linked_messages)
+    messages.append(f"{source['id']}: specified URL page kept {len(records)} records ({content_type or 'unknown content-type'})")
+    return deduplicate_records(records), messages
+
+
 def text_of(node: ET.Element, name: str) -> str:
     child = node.find(name)
     return normalize_space(child.text if child is not None and child.text else "")
@@ -489,6 +540,8 @@ def collect_kkj_api_source(source: dict, config: dict, retrieved_at: str) -> tup
 def collect_source(source: dict, config: dict, retrieved_at: str) -> tuple[list[dict], list[str]]:
     if source.get("mode") == "kkj_api":
         return collect_kkj_api_source(source, config, retrieved_at)
+    if source.get("mode") == "specified_url":
+        return collect_specified_url_source(source, config, retrieved_at)
     return collect_generic_html_source(source, config, retrieved_at)
 
 
@@ -519,6 +572,30 @@ def deduplicate_records(records: list[dict]) -> list[dict]:
         if key not in deduped:
             deduped[key] = record
     return list(deduped.values())
+
+
+def load_target_url_sources(path: Path) -> list[dict]:
+    if not path or not path.exists():
+        return []
+    data = load_json(path)
+    raw_sources = data.get("sources", data if isinstance(data, list) else [])
+    sources: list[dict] = []
+    for index, source in enumerate(raw_sources, start=1):
+        if not source.get("enabled", True):
+            continue
+        url = normalize_space(source.get("url", ""))
+        if not url:
+            continue
+        item = dict(source)
+        item.setdefault("id", f"specified-url-{index}")
+        item.setdefault("mode", "specified_url")
+        item.setdefault("source_name", "指定URL")
+        item.setdefault("agency", "")
+        item.setdefault("prefecture", "")
+        parsed = urllib.parse.urlparse(url)
+        item.setdefault("allowed_hosts", [parsed.netloc] if parsed.netloc else [])
+        sources.append(item)
+    return sources
 
 
 def parse_jst_datetime(value: str) -> datetime | None:
@@ -575,7 +652,7 @@ def write_csv(path: Path, records: list[dict]) -> None:
         writer.writerows(records)
 
 
-def run(config_path: Path, output_path: Path, csv_path: Path | None, log_path: Path) -> int:
+def run(config_path: Path, url_config_path: Path, output_path: Path, csv_path: Path | None, log_path: Path) -> int:
     config = load_json(config_path)
     generated_at = now_jst()
     retrieved_at = generated_at.strftime("%Y-%m-%d %H:%M:%S")
@@ -583,6 +660,7 @@ def run(config_path: Path, output_path: Path, csv_path: Path | None, log_path: P
     messages: list[str] = []
 
     sources = [source for source in config.get("sources", []) if source.get("enabled", True)]
+    sources.extend(load_target_url_sources(url_config_path))
     for index, source in enumerate(sources, start=1):
         records, source_messages = collect_source(source, config, retrieved_at)
         fresh_records.extend(records)
@@ -614,12 +692,13 @@ def run(config_path: Path, output_path: Path, csv_path: Path | None, log_path: P
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description="公共事業・調達案件の一覧データを取得します。")
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
+    parser.add_argument("--url-config", type=Path, default=DEFAULT_URL_CONFIG)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--csv", type=Path, default=DEFAULT_CSV)
     parser.add_argument("--log", type=Path, default=DEFAULT_LOG)
     args = parser.parse_args(argv)
     try:
-        return run(args.config, args.output, args.csv, args.log)
+        return run(args.config, args.url_config, args.output, args.csv, args.log)
     except KeyboardInterrupt:
         print("中断しました。", file=sys.stderr)
         return 130
