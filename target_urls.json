@@ -1,0 +1,215 @@
+{
+  "_note": "Add pages you want to read directly. Each enabled URL is read on every run, and matching bid pages or links are added to data/bids.json.",
+  "sources": [
+    {
+      "id": "ministry-cao",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.cao.go.jp/chotatsu/",
+      "prefecture": "全国",
+      "agency": "内閣府・内閣官房",
+      "source_name": "内閣府 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-digital",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.digital.go.jp/procurement",
+      "prefecture": "全国",
+      "agency": "デジタル庁",
+      "source_name": "デジタル庁 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-reconstruction",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.reconstruction.go.jp/topics/cat-93/sub-cat9-1/",
+      "prefecture": "全国",
+      "agency": "復興庁",
+      "source_name": "復興庁 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-moj",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.moj.go.jp/chotatsu_index.html",
+      "prefecture": "全国",
+      "agency": "法務省",
+      "source_name": "法務省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-mofa",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mofa.go.jp/mofaj/annai/shocho/chotatsu/chotatsu_index.html",
+      "prefecture": "全国",
+      "agency": "外務省",
+      "source_name": "外務省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-mof",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mof.go.jp/application-contact/procurement/index.html",
+      "prefecture": "全国",
+      "agency": "財務省",
+      "source_name": "財務省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-mext",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mext.go.jp/b_menu/choutatsu/index.htm",
+      "prefecture": "全国",
+      "agency": "文部科学省",
+      "source_name": "文部科学省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-mhlw",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mhlw.go.jp/stf/shinsei_boshu/choutatsujouhou/chotatu/index.html",
+      "prefecture": "全国",
+      "agency": "厚生労働省",
+      "source_name": "厚生労働省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-maff",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.maff.go.jp/j/supply/index.html",
+      "prefecture": "全国",
+      "agency": "農林水産省",
+      "source_name": "農林水産省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-meti",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.meti.go.jp/information/publicoffer/index.html",
+      "prefecture": "全国",
+      "agency": "経済産業省",
+      "source_name": "経済産業省 調達・予算執行",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-mlit",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mlit.go.jp/appli/file000001.html",
+      "prefecture": "全国",
+      "agency": "国土交通省",
+      "source_name": "国土交通省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-env",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.env.go.jp/kanbo/chotatsu/index.html",
+      "prefecture": "全国",
+      "agency": "環境省",
+      "source_name": "環境省 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-mod",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/j/budget/chotatsu/",
+      "prefecture": "全国",
+      "agency": "防衛省",
+      "source_name": "防衛省 公告・公示・公募",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-cfa",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.cfa.go.jp/procurement/",
+      "prefecture": "全国",
+      "agency": "こども家庭庁",
+      "source_name": "こども家庭庁 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-jftc",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.jftc.go.jp/soshiki/tyoutatsu/",
+      "prefecture": "全国",
+      "agency": "公正取引委員会",
+      "source_name": "公正取引委員会 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-npa",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.npa.go.jp/news/procurement/npa/index.html",
+      "prefecture": "全国",
+      "agency": "警察庁",
+      "source_name": "警察庁 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-fsa",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.fsa.go.jp/common/choutatu/index.html",
+      "prefecture": "全国",
+      "agency": "金融庁",
+      "source_name": "金融庁 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-caa",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.caa.go.jp/notice/procurement/",
+      "prefecture": "全国",
+      "agency": "消費者庁",
+      "source_name": "消費者庁 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-kunaicho",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.kunaicho.go.jp/kunaicho/chotatsu/",
+      "prefecture": "全国",
+      "agency": "宮内庁",
+      "source_name": "宮内庁 入札公告等調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-jbaudit",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.jbaudit.go.jp/proc/",
+      "prefecture": "全国",
+      "agency": "会計検査院",
+      "source_name": "会計検査院 調達情報",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ministry-jinji",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.jinji.go.jp/shinsei/tyoutatu.html",
+      "prefecture": "全国",
+      "agency": "人事院",
+      "source_name": "人事院 調達情報",
+      "add_page_as_record": false
+    }
+  ]
+}
