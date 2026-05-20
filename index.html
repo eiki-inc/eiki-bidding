@@ -336,12 +336,10 @@
           <option value="prefecture_asc">都道府県順</option>
         </select>
       </label>
-      <button id="reloadButton" type="button">再読込</button>
-      <button id="csvButton" class="secondary" type="button">CSV</button>
+      <button id="reloadButton" type="button">最新データ再読込</button>
     </section>
 
     <div class="notice hidden" id="notice"></div>
-    <input class="hidden" id="fileInput" type="file" accept=".json,application/json">
 
     <section class="summary" aria-label="集計">
       <div class="metric"><span>表示件数</span><strong id="visibleMetric">0</strong></div>
@@ -385,9 +383,7 @@
       typeFilter: document.getElementById("typeFilter"),
       sortOrder: document.getElementById("sortOrder"),
       reloadButton: document.getElementById("reloadButton"),
-      csvButton: document.getElementById("csvButton"),
       notice: document.getElementById("notice"),
-      fileInput: document.getElementById("fileInput"),
       visibleMetric: document.getElementById("visibleMetric"),
       sourceMetric: document.getElementById("sourceMetric"),
       prefMetric: document.getElementById("prefMetric"),
@@ -423,8 +419,7 @@
         const data = await response.json();
         setData(data);
       } catch (error) {
-        showNotice("data/bids.jsonを自動読込できませんでした。ローカルサーバーで開くか、JSONを選択してください。");
-        dom.fileInput.classList.remove("hidden");
+        showNotice("data/bids.jsonを自動読込できませんでした。GitHub Actionsの取得完了後に再読み込みしてください。");
       }
     }
 
@@ -544,45 +539,11 @@
       dom.notice.classList.add("hidden");
     }
 
-    function downloadCsv() {
-      const header = ["取得日時", "都道府県", "発注機関", "案件種別", "件名", "公告日", "案件URL", "取得元"];
-      const rows = state.filtered.map((item) => [
-        item.retrieved_at,
-        item.prefecture,
-        item.agency,
-        item.case_type,
-        item.title,
-        item.announcement_date,
-        item.url,
-        item.source
-      ]);
-      const csv = [header, ...rows].map((row) => row.map(csvCell).join(",")).join("\n");
-      const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8" });
-      const url = URL.createObjectURL(blob);
-      const anchor = document.createElement("a");
-      anchor.href = url;
-      anchor.download = "bids_filtered.csv";
-      anchor.click();
-      URL.revokeObjectURL(url);
-    }
-
-    function csvCell(value) {
-      return `"${String(value ?? "").replaceAll('"', '""')}"`;
-    }
-
     dom.searchInput.addEventListener("input", render);
     dom.prefectureFilter.addEventListener("change", render);
     dom.typeFilter.addEventListener("change", render);
     dom.sortOrder.addEventListener("change", render);
     dom.reloadButton.addEventListener("click", loadData);
-    dom.csvButton.addEventListener("click", downloadCsv);
-    dom.fileInput.addEventListener("change", async (event) => {
-      const file = event.target.files[0];
-      if (!file) return;
-      const text = await file.text();
-      setData(JSON.parse(text));
-      hideNotice();
-    });
 
     loadData();
   </script>
