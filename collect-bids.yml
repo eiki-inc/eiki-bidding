@@ -1,0 +1,48 @@
+name: Collect bid data
+
+on:
+  schedule:
+    # GitHub Actions uses UTC. 16:30 UTC is 01:30 JST.
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-bids
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Collect bid data
+        run: |
+          python scripts/collect_bids.py \
+            --config config/sources.json \
+            --output data/bids.json \
+            --csv data/bids.csv \
+            --log data/collector.log
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/bids.json data/bids.csv
+          if git diff --cached --quiet; then
+            echo "No bid data changes to commit."
+          else
+            git commit -m "Update bid data"
+            git push
+          fi
