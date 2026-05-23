@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T05:55:10+09:00",
-  "count": 2388,
+  "generated_at": "2026-05-24T04:57:19+09:00",
+  "count": 2325,
   "items": [
     {
       "retrieved_at": "2026-05-21 19:07:27",
@@ -10,6 +10,18 @@
       "title": "特種用途自動車（小型警ら車４ＷＤ）18台",
       "announcement_date": "2026-05-26",
       "url": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/D26052601.pdf",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-05-23 19:30:06",
+      "prefecture": "全国",
+      "agency": "経済産業省",
+      "case_type": "委託",
+      "title": "【本省】令和８年度脱炭素推進国際会議実施・調査事業（「GGXファイナンスサミット2026（仮称）」開催及びＧＸの推進に資するファイナンスのあり方等に関する動向調査）",
+      "announcement_date": "2026-05-22",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
       "source": "官公需情報ポータルAPI（全省庁）",
       "source_id": "kkj-national-ministries",
       "source_url": "https://www.kkj.go.jp/api/"
@@ -24939,775 +24951,7 @@
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
-      "retrieved_at": "2026-04-25 19:30:12",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "物品",
-      "title": "日用品類買入（単価契約）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-25 19:30:12",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "委託",
-      "title": "巡視船解体にかかる有害物質等情報に関する調査業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:30",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "委託",
-      "title": "健康診断等業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:30",
-      "prefecture": "全国",
-      "agency": "厚生労働省",
-      "case_type": "役務",
-      "title": "令和８年度宮城労働局及び管下監督署・安定所におけるレンタカー借用契約",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:30",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "その他",
-      "title": "令和８年度 各種封筒の作成",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:30",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "物品",
-      "title": "スライド式書庫ほかの購入",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:30",
-      "prefecture": "全国",
-      "agency": "厚生労働省",
-      "case_type": "委託",
-      "title": "【東京労働局】「令和８年度第1回障害者就職面接会」及び「令和８年度第１回外国人留学生大卒等合同就職面接 会・特定技能マッチングイベント」に伴う会場設営等の委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "石川県",
-      "agency": "農林水産省",
-      "case_type": "役務",
-      "title": "令和8年度蛇谷国有林外巡視等委託業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータル（石川県）",
-      "source_id": "kkj-ishikawa-url",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "岐阜県",
-      "agency": "法務省",
-      "case_type": "物品",
-      "title": "令和8年度笠松刑務所等事務用品等供給単価契約",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータル（岐阜県）",
-      "source_id": "kkj-gifu-url",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "委託",
-      "title": "ＥＳＳＥ－２２Ａ型視覚情報支援装置２式の製造",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "物品",
-      "title": "軽油（免税）買入（玉野）（６～３月分）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "その他",
-      "title": "被収容者用ズック靴の供給一式",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "役務",
-      "title": "葛城税務署空調設備改修工事設計業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "その他",
-      "title": "練り歯磨き剤の供給一式",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "厚生労働省",
-      "case_type": "その他",
-      "title": "求人者マイページのご案内等の作成",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "物品",
-      "title": "業務センターのレイアウト変更に係る物品の移設等業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "文部科学省",
-      "case_type": "その他",
-      "title": "教育データ分析・研究推進事業",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "役務",
-      "title": "御坊税務署空調設備改修工事設計業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "役務",
-      "title": "官庁会計システムの更改に対応する供託システムの改修の請負 一式",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "役務",
-      "title": "大阪国税局柏原宿舎大規模改修工事監理業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "役務",
-      "title": "土浦税務署空気調和設備改修工事施工監理業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "厚生労働省",
-      "case_type": "役務",
-      "title": "公共職業安定所マザーズコーナーにおけるパソコン講習及びビジネスマナー等講習の開催に係る業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "その他",
-      "title": "入浴用石けんの供給一式",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "環境省",
-      "case_type": "委託",
-      "title": "令和８年度海洋プラスチックごみマッピングデータベースのGIS統合基盤における実装検証等業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "内閣府",
-      "case_type": "物品",
-      "title": "令和８年度平良港車両管理（その２）業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "委託",
-      "title": "令和８年度健康診断業務の委託 一式",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "農林水産省",
-      "case_type": "委託",
-      "title": "令和８年度ウッド・チェンジ拡大促進支援委託事業",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "厚生労働省",
-      "case_type": "委託",
-      "title": "令和８年度『出産なび』保守運用業務一式（６～３月分）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "役務",
-      "title": "令和７年度福岡刑務所入退室管理設備電気錠等更新整備",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "役務",
-      "title": "令和７年度久留米拘置支所非常電鈴設備更新整備",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "法務省",
-      "case_type": "役務",
-      "title": "令和７年度久留米拘置支所自動火災報知設備更新整備",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "役務",
-      "title": "令和8年度那覇空港排水ポンプ車(沖縄800は2217)外1台架装部点検整備",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "厚生労働省",
-      "case_type": "委託",
-      "title": "介護支援専門員法定研修教材作成事業一式",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "委託",
-      "title": "事務用パソコンの設定作業に係る外部委託（業務センター用）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "委託",
-      "title": "データ入出力等業務（人材派遣）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "経済産業省",
-      "case_type": "委託",
-      "title": "【本省】令和８年度中小企業等産業公害防止対策調査事業（ＰＣＢ廃棄物の適正な処理促進に関する広報・調査等）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）",
-      "case_type": "委託",
-      "title": "【中国四国管区警察局山口県情報通信部】通信施設点検作業委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "物品",
-      "title": "『平成財政史―平成13年度～平成31年4月』第1巻（第1分冊）及び第2巻（第2分冊）の編集、印刷、製本等の業務",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:29",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "役務",
-      "title": "12V･8V2000型機関始動電動機整備（単価契約）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "石川県",
-      "agency": "総務省",
-      "case_type": "役務",
-      "title": "令和８年度無線局免許関係事務等に関する補助作業に係る労働者派遣",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータル（石川県）",
-      "source_id": "kkj-ishikawa-url",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "新潟県",
-      "agency": "国土交通省",
-      "case_type": "物品",
-      "title": "シリンダーヘッドパッキン12個ほか193点買入",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータル（新潟県）",
-      "source_id": "kkj-niigata-url",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "財務省",
-      "case_type": "役務",
-      "title": "行田税務署空気調和設備改修工事施工監理業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "総務省",
-      "case_type": "委託",
-      "title": "情報通信分野の国際標準化機関における主要ポストの維持・獲得のための専門人材育成並びに標準化人材の民間企業等の次世代人材及び中小企業・スタートアップ企業・大学への裾野拡大に資する調査",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "その他",
-      "title": "小樽開発建設部管内 直流電源装置製造及び据付調整",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "役務",
-      "title": "令和８年度 Ａ重油外単価契約",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "国土交通省",
-      "case_type": "物品",
-      "title": "ソフトウェアライセンス購入",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）",
-      "case_type": "その他",
-      "title": "X線透視装置",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 20:17:28",
-      "prefecture": "全国",
-      "agency": "総務省",
-      "case_type": "物品",
-      "title": "08-0043-0021 電気通信行政情報システムに係る機能開発等の請負（STARS機器の更改に伴うソフトウェア改修等）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:09:06",
-      "prefecture": "全国",
-      "agency": "厚生労働省東京労働局",
-      "case_type": "委託",
-      "title": "「令和8年度第1回障害者就職面接会」及び「令和8年度第1回外国人留学生大卒等合同就職面接 会・特定技能マッチングイベント」に伴う会場設営等の委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://jsite.mhlw.go.jp//tokyo-roudoukyoku/content/contents/002636224.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:08:45",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）山梨県警察本部",
-      "case_type": "物品",
-      "title": "「県警WANシステム開発機器の借入」の一般競争入札公告（PDF：165KB）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.pref.yamanashi.jp/documents/115108/202604232.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:08:45",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）山梨県警察本部",
-      "case_type": "物品",
-      "title": "「業務サーバの機能追加用（仮想ブラウザ整備）機器の借入」の一般競争入札公告（PDF：168KB）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.pref.yamanashi.jp/documents/115108/202604231.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:08:45",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）山梨県警察本部",
-      "case_type": "物品",
-      "title": "「刑事手続IT化用機器の借入」の一般競争入札公告（PDF：108KB）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.pref.yamanashi.jp/documents/115108/202604233.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:08:45",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）山梨県警察本部",
-      "case_type": "物品",
-      "title": "「交通切符管理システム用サーバ等機器の借入」の一般競争入札公告（PDF：493KB）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.pref.yamanashi.jp/documents/115108/20260423.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:06:15",
-      "prefecture": "石川県",
-      "agency": "総務省北陸総合通信局",
-      "case_type": "役務",
-      "title": "令和8年度無線局免許関係事務等に関する補助作業に係る労働者派遣",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.soumu.go.jp/main_content/001069899.pdf",
-      "source": "官公需情報ポータル（石川県）",
-      "source_id": "kkj-ishikawa-url",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:52",
-      "prefecture": "新潟県",
-      "agency": "海上保安庁第九管区海上保安本部",
-      "case_type": "その他",
-      "title": "r8_hq_a37_koukoku.pdf",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.kaiho.mlit.go.jp/09kanku/soumubu/nyuusatu/koukoku/R8nendo/r8_hq_a37_koukoku.pdf",
-      "source": "官公需情報ポータル（新潟県）",
-      "source_id": "kkj-niigata-url",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:40",
-      "prefecture": "全国",
-      "agency": "厚生労働省宮城労働局",
-      "case_type": "その他",
-      "title": "002635498.pdf",
-      "announcement_date": "2026-04-23",
-      "url": "https://jsite.mhlw.go.jp/miyagi-roudoukyoku/content/contents/002635498.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:30",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）徳島県警察",
-      "case_type": "物品",
-      "title": "一般競争入札「ウイルス対策ソフト」の購入",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.police.pref.tokushima.jp/./wp-content/uploads/post46914/u3t20260420crf7628.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:29",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）徳島県警察",
-      "case_type": "役務",
-      "title": "一般競争入札「特別管理産業廃棄物の処理業務委託」",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.police.pref.tokushima.jp/./wp-content/uploads/post46920/u3t20260420cbdo430.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:27",
-      "prefecture": "全国",
-      "agency": "国土交通省北海道開発局",
-      "case_type": "委託",
-      "title": "電子入札システム機能改良業務 (PDF:111KB)",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.hkd.mlit.go.jp/ky/ki/kaikei/jtfkjs0000002oqo-att/jtfkjs0000007u0c.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:25",
-      "prefecture": "全国",
-      "agency": "国土交通省北海道開発局",
-      "case_type": "物品",
-      "title": "ソフトウェアライセンス購入 (PDF:110KB)",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.hkd.mlit.go.jp/ky/ki/kaikei/jtfkjs0000003o8b-att/jtfkjs0000007oy1.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:09",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）山口県警察",
-      "case_type": "その他",
-      "title": "岩国警察署庁舎で使用する電気 （PDF：119KB）",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.pref.yamaguchi.lg.jp/uploaded/attachment/238678.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-23 19:05:06",
-      "prefecture": "全国",
-      "agency": "厚生労働省群馬労働局",
-      "case_type": "役務",
-      "title": "令和8年度 公共職業安定所マザーズコーナーにおけるパソコン講習及びビジネスマナー等講習の開催に伴う業務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://jsite.mhlw.go.jp/gunma-roudoukyoku/content/contents/002633263.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-22 19:07:25",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）兵庫県警察",
-      "case_type": "委託",
-      "title": "パーキング・メーター管理運用事務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/B26042301.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-04-22 19:07:25",
-      "prefecture": "全国",
-      "agency": "国家公安委員会（警察庁）兵庫県警察",
-      "case_type": "委託",
-      "title": "パーキング・チケット発給設備管理運用事務委託",
-      "announcement_date": "2026-04-23",
-      "url": "https://www.police.pref.hyogo.lg.jp/chotatu/kou_data/2026/B26042302.pdf",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
-      "source_url": "https://www.kkj.go.jp/api/"
-    },
-    {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25719,7 +24963,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25731,7 +24975,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25743,7 +24987,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25755,7 +24999,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25767,7 +25011,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25779,7 +25023,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25791,7 +25035,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25803,7 +25047,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25815,7 +25059,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25827,7 +25071,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -25839,7 +25083,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25851,7 +25095,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "委託",
@@ -25863,7 +25107,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25875,7 +25119,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "設計・測量・コンサル",
@@ -25887,7 +25131,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -25899,7 +25143,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -25911,7 +25155,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -25923,7 +25167,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25935,7 +25179,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25947,7 +25191,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25959,7 +25203,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25971,7 +25215,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25983,7 +25227,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -25995,7 +25239,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26007,7 +25251,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -26019,7 +25263,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -26031,7 +25275,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26043,7 +25287,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -26055,7 +25299,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26067,7 +25311,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26079,7 +25323,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26091,7 +25335,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26103,7 +25347,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26115,7 +25359,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -26127,7 +25371,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "設計・測量・コンサル",
@@ -26139,7 +25383,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -26151,7 +25395,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -26163,7 +25407,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -26175,7 +25419,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26187,7 +25431,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26199,7 +25443,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "委託",
@@ -26211,7 +25455,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26223,7 +25467,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26235,7 +25479,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26247,7 +25491,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26259,7 +25503,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26271,7 +25515,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26283,7 +25527,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26295,7 +25539,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -26307,7 +25551,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "物品",
@@ -26319,7 +25563,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "公募・プロポーザル",
@@ -26331,7 +25575,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "物品",
@@ -26343,7 +25587,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "物品",
@@ -26355,7 +25599,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "防衛省",
       "case_type": "物品",
@@ -26367,7 +25611,7 @@
       "source_url": "https://www.mod.go.jp/j/budget/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "その他",
@@ -26379,7 +25623,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "物品",
@@ -26391,7 +25635,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "物品",
@@ -26403,7 +25647,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "物品",
@@ -26415,7 +25659,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "その他",
@@ -26427,7 +25671,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "その他",
@@ -26439,7 +25683,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "その他",
@@ -26451,7 +25695,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "その他",
@@ -26463,7 +25707,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "人事院",
       "case_type": "物品",
@@ -26475,7 +25719,7 @@
       "source_url": "https://www.jinji.go.jp/shinsei/tyoutatu.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -26487,7 +25731,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "物品",
@@ -26499,7 +25743,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26511,7 +25755,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26523,7 +25767,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26535,7 +25779,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26547,7 +25791,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26559,7 +25803,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "その他",
@@ -26571,7 +25815,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "その他",
@@ -26583,7 +25827,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "その他",
@@ -26595,7 +25839,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "工事",
@@ -26607,7 +25851,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "工事",
@@ -26619,7 +25863,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "物品",
@@ -26631,7 +25875,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "物品",
@@ -26643,7 +25887,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "その他",
@@ -26655,7 +25899,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26667,7 +25911,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "設計・測量・コンサル",
@@ -26679,7 +25923,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -26691,7 +25935,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -26703,7 +25947,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -26715,7 +25959,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -26727,7 +25971,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -26739,7 +25983,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -26751,7 +25995,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "宮内庁",
       "case_type": "その他",
@@ -26763,7 +26007,7 @@
       "source_url": "https://www.kunaicho.go.jp/kunaicho/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "防衛省",
       "case_type": "その他",
@@ -26775,7 +26019,7 @@
       "source_url": "https://www.mod.go.jp/j/budget/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "役務",
@@ -26787,7 +26031,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26799,7 +26043,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26811,7 +26055,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26823,7 +26067,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26835,7 +26079,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26847,7 +26091,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26859,7 +26103,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26871,7 +26115,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26883,7 +26127,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26895,7 +26139,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "その他",
@@ -26907,7 +26151,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26919,7 +26163,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26931,7 +26175,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26943,7 +26187,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26955,7 +26199,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "その他",
@@ -26967,7 +26211,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26979,7 +26223,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -26991,7 +26235,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27003,7 +26247,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27015,7 +26259,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27027,7 +26271,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27039,7 +26283,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27051,7 +26295,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27063,7 +26307,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27075,7 +26319,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27087,7 +26331,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "物品",
@@ -27099,7 +26343,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27111,7 +26355,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27123,7 +26367,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "委託",
@@ -27135,7 +26379,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "その他",
@@ -27147,7 +26391,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "文部科学省",
       "case_type": "物品",
@@ -27159,7 +26403,7 @@
       "source_url": "https://www.mext.go.jp/b_menu/choutatsu/index.htm"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -27171,7 +26415,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "その他",
@@ -27183,7 +26427,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "その他",
@@ -27195,7 +26439,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "復興庁",
       "case_type": "その他",
@@ -27207,7 +26451,7 @@
       "source_url": "https://www.reconstruction.go.jp/topics/cat-93/sub-cat9-1/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27219,7 +26463,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27231,7 +26475,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "委託",
@@ -27243,7 +26487,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "委託",
@@ -27255,7 +26499,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "委託",
@@ -27267,7 +26511,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "設計・測量・コンサル",
@@ -27279,7 +26523,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "公募・プロポーザル",
@@ -27291,7 +26535,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "その他",
@@ -27303,7 +26547,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "物品",
@@ -27315,7 +26559,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "財務省",
       "case_type": "公募・プロポーザル",
@@ -27327,7 +26571,7 @@
       "source_url": "https://www.mof.go.jp/application-contact/procurement/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "財務省",
       "case_type": "公募・プロポーザル",
@@ -27339,7 +26583,7 @@
       "source_url": "https://www.mof.go.jp/application-contact/procurement/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "公募・プロポーザル",
@@ -27351,7 +26595,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "公募・プロポーザル",
@@ -27363,7 +26607,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "その他",
@@ -27375,7 +26619,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "その他",
@@ -27387,7 +26631,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27399,7 +26643,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27411,7 +26655,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "役務",
@@ -27423,7 +26667,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "その他",
@@ -27435,7 +26679,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "役務",
@@ -27447,7 +26691,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -27459,7 +26703,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "財務省",
       "case_type": "物品",
@@ -27471,7 +26715,7 @@
       "source_url": "https://www.mof.go.jp/application-contact/procurement/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27483,7 +26727,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "委託",
@@ -27495,7 +26739,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27507,7 +26751,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -27519,7 +26763,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "会計検査院",
       "case_type": "委託",
@@ -27531,7 +26775,7 @@
       "source_url": "https://www.jbaudit.go.jp/proc/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "公募・プロポーザル",
@@ -27543,7 +26787,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27555,7 +26799,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "人事院",
       "case_type": "その他",
@@ -27567,7 +26811,7 @@
       "source_url": "https://www.jinji.go.jp/shinsei/tyoutatu.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "物品",
@@ -27579,7 +26823,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27591,7 +26835,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27603,7 +26847,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27615,7 +26859,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27627,7 +26871,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "物品",
@@ -27639,7 +26883,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "委託",
@@ -27651,7 +26895,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "委託",
@@ -27663,7 +26907,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27675,7 +26919,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "その他",
@@ -27687,7 +26931,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27699,7 +26943,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "物品",
@@ -27711,7 +26955,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27723,7 +26967,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27735,7 +26979,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27747,7 +26991,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27759,7 +27003,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27771,7 +27015,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27783,7 +27027,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27795,7 +27039,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27807,7 +27051,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27819,7 +27063,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27831,7 +27075,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27843,7 +27087,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27855,7 +27099,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27867,7 +27111,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27879,7 +27123,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27891,7 +27135,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "その他",
@@ -27903,7 +27147,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27915,7 +27159,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -27927,7 +27171,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27939,7 +27183,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27951,7 +27195,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27963,7 +27207,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27975,7 +27219,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27987,7 +27231,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -27999,7 +27243,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28011,7 +27255,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28023,7 +27267,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28035,7 +27279,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28047,7 +27291,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28059,7 +27303,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28071,7 +27315,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28083,7 +27327,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28095,7 +27339,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28107,7 +27351,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28119,7 +27363,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28131,7 +27375,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28143,7 +27387,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28155,7 +27399,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28167,7 +27411,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28179,7 +27423,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28191,7 +27435,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28203,7 +27447,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28215,7 +27459,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28227,7 +27471,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28239,7 +27483,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28251,7 +27495,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28263,7 +27507,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28275,7 +27519,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28287,7 +27531,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28299,7 +27543,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28311,7 +27555,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28323,7 +27567,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28335,7 +27579,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "消費者庁",
       "case_type": "物品",
@@ -28347,7 +27591,7 @@
       "source_url": "https://www.caa.go.jp/notice/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "物品",
@@ -28359,7 +27603,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "委託",
@@ -28371,7 +27615,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "役務",
@@ -28383,7 +27627,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28395,7 +27639,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28407,7 +27651,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "公募・プロポーザル",
@@ -28419,7 +27663,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "人事院",
       "case_type": "物品",
@@ -28431,7 +27675,7 @@
       "source_url": "https://www.jinji.go.jp/shinsei/tyoutatu.html"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "物品",
@@ -28443,7 +27687,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "内閣府・内閣官房",
       "case_type": "その他",
@@ -28455,7 +27699,7 @@
       "source_url": "https://www.cao.go.jp/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "公正取引委員会",
       "case_type": "その他",
@@ -28467,7 +27711,7 @@
       "source_url": "https://www.jftc.go.jp/soshiki/tyoutatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "宮内庁",
       "case_type": "その他",
@@ -28479,7 +27723,7 @@
       "source_url": "https://www.kunaicho.go.jp/kunaicho/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28491,7 +27735,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "宮内庁",
       "case_type": "その他",
@@ -28503,7 +27747,7 @@
       "source_url": "https://www.kunaicho.go.jp/kunaicho/chotatsu/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28515,7 +27759,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28527,7 +27771,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28539,7 +27783,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28551,7 +27795,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28563,7 +27807,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28575,7 +27819,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28587,7 +27831,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28599,7 +27843,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28611,7 +27855,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28623,7 +27867,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28635,7 +27879,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "こども家庭庁",
       "case_type": "公募・プロポーザル",
@@ -28647,7 +27891,7 @@
       "source_url": "https://www.cfa.go.jp/procurement/"
     },
     {
-      "retrieved_at": "2026-05-23 05:55:10",
+      "retrieved_at": "2026-05-24 04:57:19",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "その他",
