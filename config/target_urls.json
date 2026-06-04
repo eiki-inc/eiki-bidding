@@ -132,6 +132,275 @@
       "add_page_as_record": false
     },
     {
+      "id": "gsdf-east-accounting-niigata-bids",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/gsdf/eae/kaikei/eafin/koubo.html",
+      "prefecture": "新潟県",
+      "agency": "陸上自衛隊 東部方面会計隊",
+      "source_name": "陸上自衛隊 東部方面会計隊（新潟）",
+      "required_keywords": [
+        "新発田",
+        "高田",
+        "新潟"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "新潟県",
+          "keywords": [
+            "新発田",
+            "高田",
+            "新潟"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "新発田",
+        "高田",
+        "新潟",
+        "入札",
+        "公告",
+        "公募",
+        "オープンカウンター",
+        "役務",
+        "工事",
+        "物品",
+        "売払",
+        "調達"
+      ],
+      "use_link_context": true,
+      "allow_excluded_categories": true,
+      "ignore_civil_engineering_excludes": true,
+      "request_timeout_seconds": 10,
+      "max_download_bytes": 500000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
+      "id": "gsdf-east-accounting-niigata-construction-plan",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/gsdf/eae/kaikei/eafin/kouji.html",
+      "prefecture": "新潟県",
+      "agency": "陸上自衛隊 東部方面会計隊",
+      "source_name": "陸上自衛隊 東部方面会計隊 工事発注予定（新潟）",
+      "required_keywords": [
+        "新発田",
+        "高田",
+        "新潟"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "新潟県",
+          "keywords": [
+            "新発田",
+            "高田",
+            "新潟"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "新発田",
+        "高田",
+        "新潟",
+        "入札",
+        "公告",
+        "工事",
+        "役務",
+        "調達"
+      ],
+      "use_link_context": true,
+      "allow_excluded_categories": true,
+      "ignore_civil_engineering_excludes": true,
+      "request_timeout_seconds": 10,
+      "max_download_bytes": 500000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
+      "id": "gsdf-middle-accounting-hokuriku-service",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm",
+      "prefecture": "北陸・岐阜",
+      "agency": "陸上自衛隊 中部方面会計隊",
+      "source_name": "陸上自衛隊 中部方面会計隊 役務（富山・石川・福井・岐阜）",
+      "required_keywords": [
+        "富山",
+        "金沢",
+        "鯖江",
+        "岐阜"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "富山県",
+          "keywords": [
+            "富山"
+          ]
+        },
+        {
+          "prefecture": "石川県",
+          "keywords": [
+            "金沢"
+          ]
+        },
+        {
+          "prefecture": "福井県",
+          "keywords": [
+            "鯖江"
+          ]
+        },
+        {
+          "prefecture": "岐阜県",
+          "keywords": [
+            "岐阜"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "富山",
+        "金沢",
+        "鯖江",
+        "岐阜",
+        "入札",
+        "公告",
+        "役務",
+        "工事",
+        "調達"
+      ],
+      "use_link_context": true,
+      "allow_excluded_categories": true,
+      "ignore_civil_engineering_excludes": true,
+      "request_timeout_seconds": 10,
+      "max_download_bytes": 500000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
+      "id": "gsdf-middle-accounting-hokuriku-goods",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet004.htm",
+      "prefecture": "北陸・岐阜",
+      "agency": "陸上自衛隊 中部方面会計隊",
+      "source_name": "陸上自衛隊 中部方面会計隊 物品（富山・石川・福井・岐阜）",
+      "required_keywords": [
+        "富山",
+        "金沢",
+        "鯖江",
+        "岐阜"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "富山県",
+          "keywords": [
+            "富山"
+          ]
+        },
+        {
+          "prefecture": "石川県",
+          "keywords": [
+            "金沢"
+          ]
+        },
+        {
+          "prefecture": "福井県",
+          "keywords": [
+            "鯖江"
+          ]
+        },
+        {
+          "prefecture": "岐阜県",
+          "keywords": [
+            "岐阜"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "富山",
+        "金沢",
+        "鯖江",
+        "岐阜",
+        "入札",
+        "公告",
+        "物品",
+        "購入",
+        "調達"
+      ],
+      "use_link_context": true,
+      "allow_excluded_categories": true,
+      "ignore_civil_engineering_excludes": true,
+      "request_timeout_seconds": 10,
+      "max_download_bytes": 500000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
+      "id": "gsdf-middle-accounting-hokuriku-sale",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet006.htm",
+      "prefecture": "北陸・岐阜",
+      "agency": "陸上自衛隊 中部方面会計隊",
+      "source_name": "陸上自衛隊 中部方面会計隊 売払（富山・石川・福井・岐阜）",
+      "required_keywords": [
+        "富山",
+        "金沢",
+        "鯖江",
+        "岐阜"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "富山県",
+          "keywords": [
+            "富山"
+          ]
+        },
+        {
+          "prefecture": "石川県",
+          "keywords": [
+            "金沢"
+          ]
+        },
+        {
+          "prefecture": "福井県",
+          "keywords": [
+            "鯖江"
+          ]
+        },
+        {
+          "prefecture": "岐阜県",
+          "keywords": [
+            "岐阜"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "富山",
+        "金沢",
+        "鯖江",
+        "岐阜",
+        "入札",
+        "公告",
+        "売払",
+        "廃油",
+        "資源",
+        "調達"
+      ],
+      "use_link_context": true,
+      "allow_excluded_categories": true,
+      "ignore_civil_engineering_excludes": true,
+      "request_timeout_seconds": 10,
+      "max_download_bytes": 500000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
       "id": "ministry-cfa",
       "enabled": false,
       "mode": "specified_url",
