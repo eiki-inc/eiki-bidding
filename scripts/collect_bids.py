@@ -161,13 +161,39 @@ def contains_any(text: str, keywords: Iterable[str]) -> bool:
     return any(normalize_for_match(keyword) in normalized for keyword in keywords if keyword)
 
 
-def should_consider_link(text: str, url: str, include_keywords: list[str], noise_keywords: list[str]) -> bool:
+def is_priority_case(text: str, priority_keywords: Iterable[str]) -> bool:
+    return contains_any(text, priority_keywords)
+
+
+def is_excluded_by_civil_keywords(text: str, exclude_keywords: list[str], priority_keywords: list[str]) -> bool:
+    return contains_any(text, exclude_keywords) and not is_priority_case(text, priority_keywords)
+
+
+def is_excluded_category(category: str, case_type: str, exclude_categories: set[str], priority: bool) -> bool:
+    return not priority and (category in exclude_categories or case_type in exclude_categories)
+
+
+def source_include_keywords(source: dict, collector: dict) -> list[str]:
+    if source.get("include_keywords"):
+        return source["include_keywords"]
+    if source.get("priority_only"):
+        return collector.get("priority_include_keywords", [])
+    return collector["include_keywords"]
+
+
+def should_consider_link(
+    text: str,
+    url: str,
+    include_keywords: list[str],
+    noise_keywords: list[str],
+    allow_document_fallback: bool = True,
+) -> bool:
     haystack = f"{text} {url}"
     if contains_any(text, noise_keywords):
         return False
     if contains_any(haystack, include_keywords):
         return True
-    return urllib.parse.urlparse(url).path.lower().endswith((".pdf", ".xlsx", ".xls", ".csv"))
+    return allow_document_fallback and urllib.parse.urlparse(url).path.lower().endswith((".pdf", ".xlsx", ".xls", ".csv"))
 
 
 def extension(url: str) -> str:
@@ -206,7 +232,9 @@ def is_index_like(text: str, url: str) -> bool:
     return len(title) <= 24 and any(word in title for word in index_words)
 
 
-def is_case_candidate(text: str, url: str, include_keywords: list[str]) -> bool:
+def is_case_candidate(text: str, url: str, include_keywords: list[str], priority_keywords: list[str] | None = None) -> bool:
+    if contains_any(f"{text} {url}", priority_keywords or []):
+        return True
     title = normalize_space(text)
     if extension(url) in {".pdf", ".xlsx", ".xls", ".csv"} and contains_any(title, include_keywords):
         return True
@@ -223,6 +251,7 @@ def is_civil_engineering(text: str, exclude_keywords: list[str]) -> bool:
 def infer_case_type(text: str, hint: str = "") -> str:
     haystack = normalize_for_match(text)
     rules = [
+        ("アスベスト・石綿", ["アスベスト", "石綿", "asbestos", "含有建材", "吹付け石綿"]),
         ("設計・測量・コンサル", ["設計", "測量", "コンサル", "地質調査"]),
         ("公募・プロポーザル", ["公募", "プロポーザル", "企画提案"]),
         ("物品", ["物品", "購入", "買入", "備品", "用品", "部品", "機器", "端末", "車両", "印刷", "賃貸借", "リース", "借入", "納入"]),
@@ -270,9 +299,11 @@ def build_record_title(link_text: str, page_title: str, depth: int) -> str:
 
 def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -> tuple[list[dict], list[str]]:
     collector = config["collector"]
-    include_keywords = collector["include_keywords"]
+    include_keywords = source_include_keywords(source, collector)
+    priority_keywords = collector.get("priority_include_keywords", [])
     noise_keywords = collector.get("noise_keywords", [])
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
+    exclude_categories = set(collector.get("exclude_categories", []))
     timeout = int(collector.get("request_timeout_seconds", 30))
     user_agent = collector.get("user_agent", "PublicBidResearchBot/0.1")
     max_links = int(collector.get("max_links_per_source", 300))
@@ -318,28 +349,31 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
             title = normalize_space(link.text)
             if not title:
                 continue
-            if not should_consider_link(title, link.url, include_keywords, noise_keywords):
+            if not should_consider_link(title, link.url, include_keywords, noise_keywords, not source.get("priority_only")):
                 continue
             combined = f"{title} {link.url}"
-            if is_civil_engineering(combined, exclude_keywords):
+            if is_excluded_by_civil_keywords(combined, exclude_keywords, priority_keywords):
                 continue
             if is_index_like(title, link.url):
                 if depth < crawl_depth and link.url not in visited_pages and link.url not in [item[0] for item in queue]:
                     queue.append((link.url, depth + 1))
                 continue
-            if not is_case_candidate(title, link.url, include_keywords):
+            if not is_case_candidate(title, link.url, include_keywords, priority_keywords):
                 continue
             if link.url in seen_urls:
                 continue
             seen_urls.add(link.url)
 
             record_title = build_record_title(title, page_title, depth)
+            case_type = infer_case_type(record_title, source.get("case_type_hint", ""))
+            if is_excluded_category("", case_type, exclude_categories, is_priority_case(record_title, priority_keywords)):
+                continue
             records.append(
                 {
                     "retrieved_at": retrieved_at,
                     "prefecture": source.get("prefecture", ""),
                     "agency": source.get("agency", ""),
-                    "case_type": infer_case_type(record_title, source.get("case_type_hint", "")),
+                    "case_type": case_type,
                     "title": record_title,
                     "announcement_date": parse_announcement_date(record_title),
                     "url": link.url,
@@ -361,7 +395,8 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
 
 def collect_specified_url_source(source: dict, config: dict, retrieved_at: str) -> tuple[list[dict], list[str]]:
     collector = config["collector"]
-    include_keywords = collector["include_keywords"]
+    include_keywords = source_include_keywords(source, collector)
+    priority_keywords = collector.get("priority_include_keywords", [])
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
     non_case_keywords = collector.get("non_case_keywords", [])
     timeout = int(collector.get("request_timeout_seconds", 30))
@@ -387,7 +422,7 @@ def collect_specified_url_source(source: dict, config: dict, retrieved_at: str) 
         add_page_as_record
         and not is_index_like(title, source_url)
         and contains_any(haystack, include_keywords)
-        and not contains_any(haystack, exclude_keywords)
+        and not is_excluded_by_civil_keywords(haystack, exclude_keywords, priority_keywords)
         and not contains_any(haystack, non_case_keywords)
     ):
         records.append(
@@ -499,6 +534,7 @@ def collect_kkj_api_source(source: dict, config: dict, retrieved_at: str) -> tup
     organization_names = source.get("organization_names") or [source.get("organization_name", "")]
     exclude_categories = set(collector.get("exclude_categories", []))
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
+    priority_keywords = collector.get("priority_include_keywords", [])
     non_case_keywords = collector.get("non_case_keywords", [])
 
     records: list[dict] = []
@@ -551,12 +587,13 @@ def collect_kkj_api_source(source: dict, config: dict, retrieved_at: str) -> tup
             if not prefecture:
                 prefecture = source.get("prefecture", "")
             haystack = " ".join([title, category, procedure_type, description, agency, prefecture])
-            if contains_any(haystack, exclude_keywords) or contains_any(haystack, non_case_keywords):
+            priority = is_priority_case(haystack, priority_keywords)
+            if is_excluded_by_civil_keywords(haystack, exclude_keywords, priority_keywords) or contains_any(haystack, non_case_keywords):
                 continue
             if not title or not url:
                 continue
             case_type = map_api_case_type(category, procedure_type, title)
-            if category in exclude_categories or case_type in exclude_categories:
+            if is_excluded_category(category, case_type, exclude_categories, priority):
                 continue
             records.append(
                 {
@@ -621,6 +658,7 @@ def collect_jetro_local_source(source: dict, config: dict, retrieved_at: str) ->
     max_pages = int(source.get("max_pages_per_entity", 20))
     exclude_categories = set(collector.get("exclude_categories", []))
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
+    priority_keywords = collector.get("priority_include_keywords", [])
     non_case_keywords = collector.get("non_case_keywords", [])
 
     records: list[dict] = []
@@ -677,9 +715,10 @@ def collect_jetro_local_source(source: dict, config: dict, retrieved_at: str) ->
                 location = normalize_space(item.get("location", prefecture))
                 haystack = " ".join([title, agency, location])
                 case_type = infer_case_type(haystack, source.get("case_type_hint", ""))
-                if not title or contains_any(haystack, exclude_keywords) or contains_any(haystack, non_case_keywords):
+                priority = is_priority_case(haystack, priority_keywords)
+                if not title or is_excluded_by_civil_keywords(haystack, exclude_keywords, priority_keywords) or contains_any(haystack, non_case_keywords):
                     continue
-                if case_type in exclude_categories:
+                if is_excluded_category("", case_type, exclude_categories, priority):
                     continue
                 aid = normalize_space(item.get("aid", ""))
                 if not aid:
