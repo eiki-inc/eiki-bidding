@@ -210,6 +210,90 @@
       "agency": "人事院",
       "source_name": "人事院 調達情報",
       "add_page_as_record": false
+    },
+    {
+      "id": "niigata-city-construction-bids",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.city.niigata.lg.jp/business/keiyaku/nyusatsu/nyusatsu/nyusatsukokoku.html",
+      "prefecture": "新潟県",
+      "agency": "新潟市",
+      "source_name": "新潟市 入札公告・入札情報",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
+    },
+    {
+      "id": "niigata-pref-bid-system-info",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.pref.niigata.lg.jp/sec/suitoushinsa/denoshi6.html",
+      "prefecture": "新潟県",
+      "agency": "新潟県",
+      "source_name": "新潟県 入札情報サービス案内",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
+    },
+    {
+      "id": "toyama-pref-bids",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.pref.toyama.jp/sangyou/nyuusatsu/jouhou/index.html",
+      "prefecture": "富山県",
+      "agency": "富山県",
+      "source_name": "富山県 入札情報",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
+    },
+    {
+      "id": "toyama-city-bids",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.city.toyama.lg.jp/business/nyusatsu/1010585/1010586/index.html",
+      "prefecture": "富山県",
+      "agency": "富山市",
+      "source_name": "富山市 入札公告",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
+    },
+    {
+      "id": "ishikawa-pref-cals",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.pref.ishikawa.lg.jp/kanri/cals-ec/bidding_information.html",
+      "prefecture": "石川県",
+      "agency": "石川県",
+      "source_name": "石川県 入札情報システム",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
+    },
+    {
+      "id": "fukui-pref-construction-bids",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.pref.fukui.lg.jp/doc/kanri/f-nyusatsu.html",
+      "prefecture": "福井県",
+      "agency": "福井県",
+      "source_name": "福井県 公共工事入札情報",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
+    },
+    {
+      "id": "gifu-pref-bid-search",
+      "enabled": true,
+      "mode": "specified_url",
+      "priority_only": true,
+      "url": "https://www.pref.gifu.lg.jp/bid/search/search.php",
+      "prefecture": "岐阜県",
+      "agency": "岐阜県",
+      "source_name": "岐阜県 入札公告検索",
+      "case_type_hint": "アスベスト・石綿",
+      "add_page_as_record": false
     }
   ]
 }
