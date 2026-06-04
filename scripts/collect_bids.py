@@ -30,6 +30,7 @@ DEFAULT_LOG = ROOT / "data" / "collector.log"
 class Link:
     url: str
     text: str
+    context: str = ""
 
 
 class LinkCollector(HTMLParser):
@@ -103,7 +104,7 @@ def write_log(path: Path, message: str) -> None:
         fp.write(f"[{stamp}] {message}\n")
 
 
-def fetch_html(url: str, timeout: int, user_agent: str) -> tuple[str, str]:
+def fetch_html(url: str, timeout: int, user_agent: str, max_bytes: int = 0) -> tuple[str, str]:
     request = urllib.request.Request(
         url,
         headers={
@@ -113,7 +114,7 @@ def fetch_html(url: str, timeout: int, user_agent: str) -> tuple[str, str]:
         },
     )
     with urllib.request.urlopen(request, timeout=timeout) as response:
-        raw = response.read()
+        raw = response.read(max_bytes) if max_bytes else response.read()
         content_type = response.headers.get("Content-Type", "")
     return decode_bytes(raw, content_type), content_type
 
@@ -147,13 +148,37 @@ def parse_links(source_url: str, document: str) -> tuple[list[Link], str, str]:
     parser = LinkCollector()
     parser.feed(document)
     base_url = source_url
+    contexts = collect_link_contexts(source_url, document)
     links: list[Link] = []
     for link in parser.links:
         absolute = urllib.parse.urljoin(base_url, link.url)
         if absolute.startswith(("http://", "https://")):
-            links.append(Link(absolute, link.text))
+            links.append(Link(absolute, link.text, contexts.get(absolute, link.text)))
     page_text = normalize_space(" ".join(parser.text_chunks))
     return links, parser.title, page_text
+
+
+def strip_html(value: str) -> str:
+    return normalize_space(re.sub(r"<[^>]+>", " ", value))
+
+
+def collect_link_contexts(source_url: str, document: str) -> dict[str, str]:
+    contexts: dict[str, str] = {}
+    for match in re.finditer(r"<a\b[^>]*href=[\"']?([^\"'>\s]+)[^>]*>.*?</a>", document, re.I | re.S):
+        href = match.group(1)
+        absolute = urllib.parse.urljoin(source_url, html.unescape(href))
+        if not absolute.startswith(("http://", "https://")):
+            continue
+        row_start = document.rfind("<tr", 0, match.start())
+        row_end = document.find("</tr>", match.end())
+        if row_start != -1 and row_end != -1:
+            context_html = document[row_start : row_end + 5]
+        else:
+            context_html = document[max(0, match.start() - 300) : match.end() + 300]
+        context = strip_html(context_html)
+        if context:
+            contexts.setdefault(absolute, context)
+    return contexts
 
 
 def contains_any(text: str, keywords: Iterable[str]) -> bool:
@@ -179,6 +204,13 @@ def source_include_keywords(source: dict, collector: dict) -> list[str]:
     if source.get("priority_only"):
         return collector.get("priority_include_keywords", [])
     return collector["include_keywords"]
+
+
+def source_prefecture(source: dict, text: str) -> str:
+    for rule in source.get("prefecture_keywords", []):
+        if contains_any(text, rule.get("keywords", [])):
+            return normalize_space(rule.get("prefecture", ""))
+    return source.get("prefecture", "")
 
 
 def should_consider_link(
@@ -304,11 +336,13 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
     noise_keywords = collector.get("noise_keywords", [])
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
     exclude_categories = set(collector.get("exclude_categories", []))
-    timeout = int(collector.get("request_timeout_seconds", 30))
+    required_keywords = source.get("required_keywords", [])
+    timeout = int(source.get("request_timeout_seconds") or collector.get("request_timeout_seconds", 30))
+    max_download_bytes = int(source.get("max_download_bytes") or 0)
     user_agent = collector.get("user_agent", "PublicBidResearchBot/0.1")
-    max_links = int(collector.get("max_links_per_source", 300))
-    max_pages = int(collector.get("max_pages_per_source", 12))
-    crawl_depth = int(collector.get("crawl_depth", 1))
+    max_links = int(source.get("max_links_per_source") or collector.get("max_links_per_source", 300))
+    max_pages = int(source.get("max_pages_per_source") or collector.get("max_pages_per_source", 12))
+    crawl_depth = int(source.get("crawl_depth") if source.get("crawl_depth") is not None else collector.get("crawl_depth", 1))
 
     messages: list[str] = []
     source_url = source["url"]
@@ -325,7 +359,7 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
             continue
         visited_pages.add(page_url)
         try:
-            document, content_type = fetch_html(page_url, timeout, user_agent)
+            document, content_type = fetch_html(page_url, timeout, user_agent, max_download_bytes)
         except urllib.error.HTTPError as exc:
             messages.append(f"{source['id']}: HTTP {exc.code} {page_url}")
             continue
@@ -346,13 +380,15 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
                 break
             if not allowed_host(link.url, source):
                 continue
-            title = normalize_space(link.text)
+            title = normalize_space(link.context if source.get("use_link_context") else link.text)
             if not title:
+                continue
+            combined = f"{title} {link.text} {link.url}"
+            if required_keywords and not contains_any(combined, required_keywords):
                 continue
             if not should_consider_link(title, link.url, include_keywords, noise_keywords, not source.get("priority_only")):
                 continue
-            combined = f"{title} {link.url}"
-            if is_excluded_by_civil_keywords(combined, exclude_keywords, priority_keywords):
+            if not source.get("ignore_civil_engineering_excludes") and is_excluded_by_civil_keywords(combined, exclude_keywords, priority_keywords):
                 continue
             if is_index_like(title, link.url):
                 if depth < crawl_depth and link.url not in visited_pages and link.url not in [item[0] for item in queue]:
@@ -366,12 +402,12 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
 
             record_title = build_record_title(title, page_title, depth)
             case_type = infer_case_type(record_title, source.get("case_type_hint", ""))
-            if is_excluded_category("", case_type, exclude_categories, is_priority_case(record_title, priority_keywords)):
+            if not source.get("allow_excluded_categories") and is_excluded_category("", case_type, exclude_categories, is_priority_case(record_title, priority_keywords)):
                 continue
             records.append(
                 {
-                    "retrieved_at": retrieved_at,
-                    "prefecture": source.get("prefecture", ""),
+                        "retrieved_at": retrieved_at,
+                    "prefecture": source_prefecture(source, record_title),
                     "agency": source.get("agency", ""),
                     "case_type": case_type,
                     "title": record_title,
@@ -399,14 +435,15 @@ def collect_specified_url_source(source: dict, config: dict, retrieved_at: str) 
     priority_keywords = collector.get("priority_include_keywords", [])
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
     non_case_keywords = collector.get("non_case_keywords", [])
-    timeout = int(collector.get("request_timeout_seconds", 30))
+    timeout = int(source.get("request_timeout_seconds") or collector.get("request_timeout_seconds", 30))
+    max_download_bytes = int(source.get("max_download_bytes") or 0)
     user_agent = collector.get("user_agent", "PublicBidResearchBot/0.1")
     source_url = source["url"]
     records: list[dict] = []
     messages: list[str] = []
 
     try:
-        document, content_type = fetch_html(source_url, timeout, user_agent)
+        document, content_type = fetch_html(source_url, timeout, user_agent, max_download_bytes)
     except urllib.error.HTTPError as exc:
         return [], [f"{source['id']}: HTTP {exc.code} {source_url}"]
     except urllib.error.URLError as exc:
