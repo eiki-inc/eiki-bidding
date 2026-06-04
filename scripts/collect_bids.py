@@ -437,6 +437,17 @@ def api_date_to_datetime(value: str, fallback: str) -> str:
         return value[:19].replace("T", " ") or fallback
 
 
+def parse_japanese_date(value: str) -> str:
+    value = normalize_space(value)
+    match = re.search(r"(20\d{2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", value)
+    if not match:
+        return parse_announcement_date(value)
+    try:
+        return datetime(int(match.group(1)), int(match.group(2)), int(match.group(3))).strftime("%Y-%m-%d")
+    except ValueError:
+        return ""
+
+
 def first_attachment_url(node: ET.Element) -> str:
     uri = node.findtext("Attachments/Attachment/Uri")
     return normalize_space(uri or "")
@@ -568,11 +579,146 @@ def collect_kkj_api_source(source: dict, config: dict, retrieved_at: str) -> tup
     return records, messages
 
 
+def jetro_local_list_url(base_url: str, params: dict[str, str]) -> str:
+    return f"{base_url.rstrip('/')}/gov_procurement/local/list.html?{urllib.parse.urlencode(params)}"
+
+
+def jetro_local_api_url(base_url: str, block_id: str, current: int, params: dict[str, str]) -> str:
+    query = {"blockId": block_id}
+    if current:
+        query["current"] = str(current)
+    query.update(params)
+    return f"{base_url.rstrip('/')}/view_interface.php?{urllib.parse.urlencode(query)}"
+
+
+def fetch_jetro_json(url: str, referer: str, timeout: int, user_agent: str) -> dict:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": user_agent,
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Accept-Language": "ja,en;q=0.7",
+            "Referer": referer,
+            "X-Requested-With": "XMLHttpRequest",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        raw = response.read()
+        content_type = response.headers.get("Content-Type", "")
+    return json.loads(decode_bytes(raw, content_type))
+
+
+def collect_jetro_local_source(source: dict, config: dict, retrieved_at: str) -> tuple[list[dict], list[str]]:
+    collector = config["collector"]
+    timeout = int(collector.get("request_timeout_seconds", 30))
+    user_agent = collector.get("user_agent", "PublicBidResearchBot/0.1")
+    issue_days = int(source.get("issue_date_days_back") or collector.get("api_issue_date_days_back", 30))
+    date_from = (now_jst().date() - timedelta(days=issue_days)).strftime("%Y/%m/%d")
+    date_to = now_jst().date().strftime("%Y/%m/%d")
+    base_url = source.get("base_url", "https://www.jetro.go.jp")
+    block_id = str(source.get("results_block_id", "33686978"))
+    pause = float(source.get("pause_seconds", collector.get("api_pause_seconds", 0.2)))
+    max_pages = int(source.get("max_pages_per_entity", 20))
+    exclude_categories = set(collector.get("exclude_categories", []))
+    exclude_keywords = collector["civil_engineering_exclude_keywords"]
+    non_case_keywords = collector.get("non_case_keywords", [])
+
+    records: list[dict] = []
+    messages: list[str] = []
+    entities = source.get("entities", [])
+    for entity in entities:
+        entity_code = normalize_space(str(entity.get("code", "")))
+        if not entity_code:
+            continue
+        area_code = normalize_space(str(entity.get("area_code") or entity_code[:2]))
+        prefecture = normalize_space(entity.get("prefecture", ""))
+        params = {
+            "local_from": date_from,
+            "local_to": date_to,
+            "local_area": area_code,
+            "local_entity": entity_code,
+            "local_keyword": normalize_space(source.get("keyword", "")),
+            "local_classification1": normalize_space(source.get("classification1", "")),
+            "local_classification2": normalize_space(source.get("classification2", "")),
+            "local_classification3": normalize_space(source.get("classification3", "")),
+            "local_deadline": normalize_space(source.get("deadline", "")),
+        }
+        referer = jetro_local_list_url(base_url, params)
+        kept = 0
+        total = 0
+        current = 0
+        page_count = 0
+        while page_count < max_pages:
+            api_url = jetro_local_api_url(base_url, block_id, current, params)
+            try:
+                data = fetch_jetro_json(api_url, referer, timeout, user_agent)
+            except urllib.error.HTTPError as exc:
+                messages.append(f"{source['id']}: HTTP {exc.code} {entity_code} {api_url}")
+                break
+            except urllib.error.URLError as exc:
+                messages.append(f"{source['id']}: URL error {exc.reason} {entity_code} {api_url}")
+                break
+            except TimeoutError:
+                messages.append(f"{source['id']}: timeout {entity_code} {api_url}")
+                break
+            except (json.JSONDecodeError, KeyError, TypeError) as exc:
+                messages.append(f"{source['id']}: JSON parse error {exc} {entity_code} {api_url}")
+                break
+
+            pagination = data.get("pagination", {})
+            total = int(pagination.get("total") or 0)
+            per_page = int(pagination.get("perPage") or 30)
+            items = data.get("items", [])
+            if not items:
+                break
+            for item in items:
+                title = normalize_space(item.get("title", ""))
+                agency = normalize_space(item.get("agency", entity.get("name", "")))
+                location = normalize_space(item.get("location", prefecture))
+                haystack = " ".join([title, agency, location])
+                case_type = infer_case_type(haystack, source.get("case_type_hint", ""))
+                if not title or contains_any(haystack, exclude_keywords) or contains_any(haystack, non_case_keywords):
+                    continue
+                if case_type in exclude_categories:
+                    continue
+                aid = normalize_space(item.get("aid", ""))
+                if not aid:
+                    continue
+                records.append(
+                    {
+                        "retrieved_at": retrieved_at,
+                        "prefecture": prefecture or location,
+                        "agency": agency,
+                        "case_type": case_type,
+                        "title": title,
+                        "announcement_date": parse_japanese_date(item.get("date", "")),
+                        "url": f"{base_url.rstrip('/')}/gov_procurement/local/articles/{aid}.html",
+                        "source": source.get("source_name", "JETRO政府公共調達DB"),
+                        "source_id": source.get("id", ""),
+                        "source_url": referer,
+                    }
+                )
+                kept += 1
+            page_count += 1
+            current += per_page
+            if current >= total:
+                break
+            if pause:
+                time.sleep(pause)
+        messages.append(f"{source['id']}: {entity_code} {entity.get('name', '')} total={total} kept={kept}")
+        if pause:
+            time.sleep(pause)
+
+    return deduplicate_records(records), messages
+
+
 def collect_source(source: dict, config: dict, retrieved_at: str) -> tuple[list[dict], list[str]]:
     if source.get("mode") == "kkj_api":
         return collect_kkj_api_source(source, config, retrieved_at)
     if source.get("mode") == "kkj_result_url":
         return collect_kkj_result_url_source(source, config, retrieved_at)
+    if source.get("mode") == "jetro_local":
+        return collect_jetro_local_source(source, config, retrieved_at)
     if source.get("mode") == "specified_url":
         return collect_specified_url_source(source, config, retrieved_at)
     return collect_generic_html_source(source, config, retrieved_at)
