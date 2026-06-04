@@ -3,7 +3,7 @@
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 PublicBidResearchBot/0.1",
     "request_timeout_seconds": 30,
     "days_to_keep": 45,
-    "api_query": "入札 OR 公募 OR 見積 OR プロポーザル OR 調達 OR アスベスト OR 石綿",
+    "api_query": "入札 OR 公募 OR 見積 OR プロポーザル OR 調達 OR アスベスト OR 石綿 OR ボイラー OR 煙突 OR 保温材 OR 断熱材",
     "api_issue_date_days_back": 30,
     "api_count": 1000,
     "api_pause_seconds": 0.2,
@@ -42,7 +42,17 @@
       "アスベスト濃度測定",
       "石綿事前調査",
       "建材調査",
-      "飛散防止"
+      "飛散防止",
+      "ボイラー",
+      "ボイラー室",
+      "煙突",
+      "機械室",
+      "保温材",
+      "断熱材",
+      "配管撤去",
+      "配管改修",
+      "配管更新",
+      "ダクト撤去"
     ],
     "priority_include_keywords": [
       "アスベスト",
@@ -56,7 +66,17 @@
       "アスベスト濃度測定",
       "石綿事前調査",
       "建材調査",
-      "飛散防止"
+      "飛散防止",
+      "ボイラー",
+      "ボイラー室",
+      "煙突",
+      "機械室",
+      "保温材",
+      "断熱材",
+      "配管撤去",
+      "配管改修",
+      "配管更新",
+      "ダクト撤去"
     ],
     "noise_keywords": [
       "音声読み上げ",
