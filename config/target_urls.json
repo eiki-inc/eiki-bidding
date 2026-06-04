@@ -133,7 +133,7 @@
     },
     {
       "id": "ministry-cfa",
-      "enabled": true,
+      "enabled": false,
       "mode": "specified_url",
       "url": "https://www.cfa.go.jp/procurement/",
       "prefecture": "全国",
