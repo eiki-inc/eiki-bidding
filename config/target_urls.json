@@ -7,7 +7,7 @@
       "mode": "specified_url",
       "url": "https://www.cao.go.jp/chotatsu/",
       "prefecture": "全国",
-      "agency": "内閣府・内閣官房",
+      "agency": "内閣府",
       "source_name": "内閣府 調達情報",
       "add_page_as_record": false
     },
@@ -132,6 +132,166 @@
       "add_page_as_record": false
     },
     {
+      "id": "asdf-komatsu-accounting-bids",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/asdf/komatsu/6/third/62.html",
+      "prefecture": "石川県",
+      "agency": "航空自衛隊 小松基地",
+      "source_name": "航空自衛隊 小松基地 入札情報",
+      "include_keywords": [
+        "小松",
+        "小松基地",
+        "入札",
+        "公告",
+        "オープンカウンター",
+        "工事",
+        "建築",
+        "解体",
+        "改修",
+        "修繕",
+        "撤去",
+        "役務",
+        "アスベスト",
+        "石綿",
+        "ボイラー",
+        "煙突",
+        "保温材",
+        "断熱材"
+      ],
+      "use_link_context": true,
+      "ignore_civil_engineering_excludes": false,
+      "request_timeout_seconds": 15,
+      "max_download_bytes": 800000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
+      "id": "kinchu-defense-komatsu-construction",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html",
+      "prefecture": "石川県",
+      "agency": "近畿中部防衛局",
+      "source_name": "近畿中部防衛局 工事公告（小松・岐阜）",
+      "required_keywords": [
+        "小松",
+        "小松基地",
+        "小松市",
+        "輪島",
+        "金沢",
+        "岐阜"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "石川県",
+          "keywords": [
+            "小松",
+            "小松基地",
+            "小松市",
+            "輪島",
+            "金沢"
+          ]
+        },
+        {
+          "prefecture": "岐阜県",
+          "keywords": [
+            "岐阜"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "小松",
+        "小松基地",
+        "小松市",
+        "輪島",
+        "金沢",
+        "岐阜",
+        "入札",
+        "公告",
+        "工事",
+        "建築",
+        "解体",
+        "改修",
+        "修繕",
+        "撤去",
+        "アスベスト",
+        "石綿",
+        "ボイラー",
+        "煙突",
+        "保温材",
+        "断熱材"
+      ],
+      "use_link_context": true,
+      "ignore_civil_engineering_excludes": false,
+      "request_timeout_seconds": 15,
+      "max_download_bytes": 1200000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
+      "id": "kinchu-defense-komatsu-construction-services",
+      "enabled": true,
+      "mode": "specified_url",
+      "url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html",
+      "prefecture": "石川県",
+      "agency": "近畿中部防衛局",
+      "source_name": "近畿中部防衛局 建設関連業務公告（小松・岐阜）",
+      "required_keywords": [
+        "小松",
+        "小松基地",
+        "小松市",
+        "輪島",
+        "金沢",
+        "岐阜"
+      ],
+      "prefecture_keywords": [
+        {
+          "prefecture": "石川県",
+          "keywords": [
+            "小松",
+            "小松基地",
+            "小松市",
+            "輪島",
+            "金沢"
+          ]
+        },
+        {
+          "prefecture": "岐阜県",
+          "keywords": [
+            "岐阜"
+          ]
+        }
+      ],
+      "include_keywords": [
+        "小松",
+        "小松基地",
+        "小松市",
+        "輪島",
+        "金沢",
+        "岐阜",
+        "入札",
+        "公告",
+        "建築",
+        "設計",
+        "監理",
+        "解体",
+        "改修",
+        "撤去",
+        "アスベスト",
+        "石綿"
+      ],
+      "use_link_context": true,
+      "ignore_civil_engineering_excludes": false,
+      "request_timeout_seconds": 15,
+      "max_download_bytes": 1200000,
+      "max_pages_per_source": 1,
+      "crawl_depth": 0,
+      "add_page_as_record": false
+    },
+    {
       "id": "gsdf-east-accounting-niigata-bids",
       "enabled": true,
       "mode": "specified_url",
@@ -169,7 +329,7 @@
         "調達"
       ],
       "use_link_context": true,
-      "allow_excluded_categories": true,
+      "allow_excluded_categories": false,
       "ignore_civil_engineering_excludes": true,
       "request_timeout_seconds": 10,
       "max_download_bytes": 500000,
@@ -211,7 +371,7 @@
         "調達"
       ],
       "use_link_context": true,
-      "allow_excluded_categories": true,
+      "allow_excluded_categories": false,
       "ignore_civil_engineering_excludes": true,
       "request_timeout_seconds": 10,
       "max_download_bytes": 500000,
@@ -271,7 +431,7 @@
         "調達"
       ],
       "use_link_context": true,
-      "allow_excluded_categories": true,
+      "allow_excluded_categories": false,
       "ignore_civil_engineering_excludes": true,
       "request_timeout_seconds": 10,
       "max_download_bytes": 500000,
@@ -281,7 +441,7 @@
     },
     {
       "id": "gsdf-middle-accounting-hokuriku-goods",
-      "enabled": true,
+      "enabled": false,
       "mode": "specified_url",
       "url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet004.htm",
       "prefecture": "北陸・岐阜",
@@ -331,7 +491,7 @@
         "調達"
       ],
       "use_link_context": true,
-      "allow_excluded_categories": true,
+      "allow_excluded_categories": false,
       "ignore_civil_engineering_excludes": true,
       "request_timeout_seconds": 10,
       "max_download_bytes": 500000,
@@ -341,7 +501,7 @@
     },
     {
       "id": "gsdf-middle-accounting-hokuriku-sale",
-      "enabled": true,
+      "enabled": false,
       "mode": "specified_url",
       "url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet006.htm",
       "prefecture": "北陸・岐阜",
@@ -392,7 +552,7 @@
         "調達"
       ],
       "use_link_context": true,
-      "allow_excluded_categories": true,
+      "allow_excluded_categories": false,
       "ignore_civil_engineering_excludes": true,
       "request_timeout_seconds": 10,
       "max_download_bytes": 500000,
