@@ -194,8 +194,8 @@ def is_excluded_by_civil_keywords(text: str, exclude_keywords: list[str], priori
     return contains_any(text, exclude_keywords) and not is_priority_case(text, priority_keywords)
 
 
-def is_excluded_category(category: str, case_type: str, exclude_categories: set[str], priority: bool) -> bool:
-    return not priority and (category in exclude_categories or case_type in exclude_categories)
+def is_excluded_category(category: str, case_type: str, exclude_categories: set[str]) -> bool:
+    return category in exclude_categories or case_type in exclude_categories
 
 
 def source_include_keywords(source: dict, collector: dict) -> list[str]:
@@ -448,7 +448,7 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
 
             record_title = build_record_title(title, page_title, depth)
             case_type = infer_case_type(record_title, source.get("case_type_hint", ""))
-            if not source.get("allow_excluded_categories") and is_excluded_category("", case_type, exclude_categories, is_priority_case(record_title, priority_keywords)):
+            if not source.get("allow_excluded_categories") and is_excluded_category("", case_type, exclude_categories):
                 continue
             records.append(
                 {
@@ -679,7 +679,7 @@ def collect_kkj_api_source(source: dict, config: dict, retrieved_at: str) -> tup
             if not title or not url:
                 continue
             case_type = map_api_case_type(category, procedure_type, title)
-            if is_excluded_category(category, case_type, exclude_categories, priority):
+            if is_excluded_category(category, case_type, exclude_categories):
                 continue
             records.append(
                 {
@@ -804,7 +804,7 @@ def collect_jetro_local_source(source: dict, config: dict, retrieved_at: str) ->
                 priority = is_priority_case(haystack, priority_keywords)
                 if not title or is_excluded_by_civil_keywords(haystack, exclude_keywords, priority_keywords) or contains_any(haystack, non_case_keywords):
                     continue
-                if is_excluded_category("", case_type, exclude_categories, priority):
+                if is_excluded_category("", case_type, exclude_categories):
                     continue
                 aid = normalize_space(item.get("aid", ""))
                 if not aid:
