@@ -272,7 +272,7 @@ def is_case_candidate(text: str, url: str, include_keywords: list[str], priority
         return True
     if parse_announcement_date(title):
         return contains_any(title, include_keywords)
-    case_words = ["公告", "公募", "プロポーザル", "見積", "委託", "役務", "購入", "保守", "賃貸借", "リース"]
+    case_words = ["公告", "公募", "プロポーザル", "見積", "役務", "保守", "工事", "建築", "解体", "改修", "修繕", "撤去"]
     return len(title) >= 14 and contains_any(title, case_words)
 
 
@@ -284,12 +284,55 @@ def infer_case_type(text: str, hint: str = "") -> str:
     haystack = normalize_for_match(text)
     rules = [
         ("アスベスト・石綿", ["アスベスト", "石綿", "asbestos", "含有建材", "吹付け石綿"]),
+        (
+            "建築・解体",
+            [
+                "建築",
+                "建築工事",
+                "建築一式",
+                "解体",
+                "解体工事",
+                "解体工事一式",
+                "解体撤去",
+                "取壊し",
+                "取壊し撤去",
+                "撤去工事",
+                "建物改修",
+                "施設改修",
+                "庁舎改修",
+                "宿舎改修",
+                "局舎改修",
+                "校舎改修",
+                "外壁改修",
+                "屋上防水",
+                "防水改修",
+                "内装改修",
+                "建具改修",
+                "設備工事",
+                "電気工事",
+                "機械工事",
+                "管工事",
+                "空調改修",
+                "電気設備改修",
+                "機械設備改修",
+                "ボイラー",
+                "ボイラー室",
+                "煙突",
+                "機械室",
+                "保温材",
+                "断熱材",
+                "配管撤去",
+                "配管改修",
+                "配管更新",
+                "ダクト撤去",
+            ],
+        ),
         ("設計・測量・コンサル", ["設計", "測量", "コンサル", "地質調査"]),
         ("公募・プロポーザル", ["公募", "プロポーザル", "企画提案"]),
+        ("工事", ["工事", "改修", "修繕"]),
         ("物品", ["物品", "購入", "買入", "備品", "用品", "部品", "機器", "端末", "車両", "印刷", "賃貸借", "リース", "借入", "納入"]),
         ("委託", ["委託", "業務", "調査", "検討", "支援", "制作", "データ整備"]),
         ("役務", ["役務", "請負", "作業", "処理", "保守", "清掃", "警備", "点検", "整備", "修理", "運用", "管理", "研修", "講座", "契約"]),
-        ("工事", ["工事", "改修", "修繕"]),
     ]
     for case_type, keywords in rules:
         if any(keyword in haystack for keyword in keywords):
@@ -334,6 +377,7 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
     include_keywords = source_include_keywords(source, collector)
     priority_keywords = collector.get("priority_include_keywords", [])
     noise_keywords = collector.get("noise_keywords", [])
+    non_case_keywords = collector.get("non_case_keywords", [])
     exclude_keywords = collector["civil_engineering_exclude_keywords"]
     exclude_categories = set(collector.get("exclude_categories", []))
     required_keywords = source.get("required_keywords", [])
@@ -386,6 +430,8 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
             combined = f"{title} {link.text} {link.url}"
             if required_keywords and not contains_any(combined, required_keywords):
                 continue
+            if contains_any(combined, non_case_keywords):
+                continue
             if not should_consider_link(title, link.url, include_keywords, noise_keywords, not source.get("priority_only")):
                 continue
             if not source.get("ignore_civil_engineering_excludes") and is_excluded_by_civil_keywords(combined, exclude_keywords, priority_keywords):
@@ -406,7 +452,7 @@ def collect_generic_html_source(source: dict, config: dict, retrieved_at: str) -
                 continue
             records.append(
                 {
-                        "retrieved_at": retrieved_at,
+                    "retrieved_at": retrieved_at,
                     "prefecture": source_prefecture(source, record_title),
                     "agency": source.get("agency", ""),
                     "case_type": case_type,
@@ -526,9 +572,12 @@ def first_attachment_url(node: ET.Element) -> str:
 
 
 def map_api_case_type(category: str, procedure_type: str, title: str) -> str:
+    inferred = infer_case_type(title)
+    if inferred in {"アスベスト・石綿", "建築・解体"}:
+        return inferred
     if category in {"物品", "工事", "役務"}:
         return category
-    return infer_case_type(title)
+    return inferred
 
 
 def kkj_request_url(source: dict, params: dict[str, str]) -> str:
