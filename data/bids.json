@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T04:47:28+09:00",
-  "count": 391,
+  "generated_at": "2026-10-22T04:52:59+09:00",
+  "count": 393,
   "items": [
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "航空自衛隊 小松基地",
       "case_type": "工事",
@@ -15,7 +15,7 @@
       "source_url": "https://www.mod.go.jp/asdf/komatsu/6/third/62.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "航空自衛隊 小松基地",
       "case_type": "工事",
@@ -27,7 +27,7 @@
       "source_url": "https://www.mod.go.jp/asdf/komatsu/6/third/62.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "航空自衛隊 小松基地",
       "case_type": "工事",
@@ -39,7 +39,7 @@
       "source_url": "https://www.mod.go.jp/asdf/komatsu/6/third/62.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "福井県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -51,7 +51,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "航空自衛隊 小松基地",
       "case_type": "工事",
@@ -63,7 +63,7 @@
       "source_url": "https://www.mod.go.jp/asdf/komatsu/6/third/62.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "航空自衛隊 小松基地",
       "case_type": "工事",
@@ -73,6 +73,102 @@
       "source": "航空自衛隊 小松基地 入札情報",
       "source_id": "asdf-komatsu-accounting-bids",
       "source_url": "https://www.mod.go.jp/asdf/komatsu/6/third/62.html"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:48",
+      "prefecture": "全国",
+      "agency": "国土交通省",
+      "case_type": "工事",
+      "title": "第二管区海上保安本部４階執務室改修工事",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:48",
+      "prefecture": "全国",
+      "agency": "国土交通省",
+      "case_type": "設計・測量・コンサル",
+      "title": "北九州空港駐車場照明灯改良整備外1件実施設計",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:48",
+      "prefecture": "全国",
+      "agency": "防衛省",
+      "case_type": "役務",
+      "title": "オフィス改革（レイアウト変更）に伴うLANケーブル及び電源コンセント移設並びに什器等の物品輸送， 壁の補修・塗装及びタイルカーペットの更新役務",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:48",
+      "prefecture": "全国",
+      "agency": "国土交通省",
+      "case_type": "建築・解体",
+      "title": "【東京航空局】福島空港出張所庁舎改修工事",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:48",
+      "prefecture": "全国",
+      "agency": "国土交通省",
+      "case_type": "工事",
+      "title": "【東京航空局】新潟空港Ａ滑走路灯改良工事",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:47",
+      "prefecture": "岐阜県",
+      "agency": "厚生労働省",
+      "case_type": "役務",
+      "title": "令和９年度岐阜労働局管内４庁舎で使用する低圧電力の供給契約（単価契約）",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータル（岐阜県）",
+      "source_id": "kkj-gifu-url",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:38:47",
+      "prefecture": "全国",
+      "agency": "財務省",
+      "case_type": "建築・解体",
+      "title": "杵築市所在国有建物解体工事",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-21 19:05:46",
+      "prefecture": "全国",
+      "agency": "財務省神戸税関",
+      "case_type": "役務",
+      "title": "神戸税関管内５庁舎及び門司税関管内３庁舎において使用する電力の需給契約（PDF：189KB）",
+      "announcement_date": "2026-10-21",
+      "url": "https://www.customs.go.jp/kyotsu/chotatsu/seifu/s_kobe/20261021chugokutikudennryoku.pdf",
+      "source": "官公需情報ポータルAPI（全省庁）",
+      "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
     },
     {
       "retrieved_at": "2026-10-20 19:25:42",
@@ -124,14 +220,14 @@
     },
     {
       "retrieved_at": "2026-10-20 19:25:40",
-      "prefecture": "全国",
+      "prefecture": "新潟県",
       "agency": "国土交通省",
       "case_type": "建築・解体",
       "title": "新潟運輸支局屋上防水等補修工事",
       "announcement_date": "2026-10-20",
       "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
-      "source": "官公需情報ポータルAPI（全省庁）",
-      "source_id": "kkj-national-ministries",
+      "source": "官公需情報ポータル（新潟県）",
+      "source_id": "kkj-niigata-url",
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
@@ -192,6 +288,18 @@
       "url": "https://www.p-portal.go.jp/pps-web-biz/UAA01/OAA0101",
       "source": "官公需情報ポータルAPI（全省庁）",
       "source_id": "kkj-national-ministries",
+      "source_url": "https://www.kkj.go.jp/api/"
+    },
+    {
+      "retrieved_at": "2026-10-20 19:05:15",
+      "prefecture": "福井県",
+      "agency": "福井県",
+      "case_type": "公募・プロポーザル",
+      "title": "DXハイスクール採択校の生徒向け学習会業務に係る公募型プロポーザルを実施します。",
+      "announcement_date": "2026-10-20",
+      "url": "https://www.pref.fukui.lg.jp/doc/kyousei/seitomuke-gakusyukai-r08_d/fil/koubokoukoku.pdf",
+      "source": "官公需情報ポータル（福井県）",
+      "source_id": "kkj-fukui-url",
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
@@ -915,7 +1023,7 @@
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "新潟県",
       "agency": "陸上自衛隊 東部方面会計隊",
       "case_type": "役務",
@@ -927,7 +1035,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/eae/kaikei/eafin/koubo.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "新潟県",
       "agency": "陸上自衛隊 東部方面会計隊",
       "case_type": "役務",
@@ -939,7 +1047,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/eae/kaikei/eafin/koubo.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "富山県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -2679,7 +2787,7 @@
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "福井県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "工事",
@@ -2943,7 +3051,7 @@
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "航空自衛隊 小松基地",
       "case_type": "工事",
@@ -3219,7 +3327,7 @@
       "source_url": "https://www.kkj.go.jp/api/"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "福井県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3231,7 +3339,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "福井県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3243,7 +3351,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "福井県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3255,7 +3363,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "富山県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3267,7 +3375,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3279,7 +3387,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3291,7 +3399,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3303,7 +3411,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3315,7 +3423,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3327,7 +3435,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "建築・解体",
@@ -3339,7 +3447,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "富山県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3351,7 +3459,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3363,7 +3471,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3375,7 +3483,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "建築・解体",
@@ -3387,7 +3495,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "福井県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "建築・解体",
@@ -3399,7 +3507,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3411,7 +3519,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3423,7 +3531,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3435,7 +3543,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "富山県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3447,7 +3555,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "富山県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3459,7 +3567,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3471,7 +3579,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3483,7 +3591,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3495,7 +3603,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "富山県",
       "agency": "陸上自衛隊 中部方面会計隊",
       "case_type": "役務",
@@ -3507,7 +3615,7 @@
       "source_url": "https://www.mod.go.jp/gsdf/mae/mafin/k/k.files/sheet003.htm"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3519,7 +3627,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3531,7 +3639,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3543,7 +3651,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -3555,7 +3663,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -3567,7 +3675,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -3579,7 +3687,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -3591,7 +3699,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3603,7 +3711,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3615,7 +3723,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3627,7 +3735,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -3639,7 +3747,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -3651,7 +3759,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3663,7 +3771,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3675,7 +3783,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3687,7 +3795,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3699,7 +3807,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3711,7 +3819,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3723,7 +3831,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3735,7 +3843,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3747,7 +3855,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3759,7 +3867,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3771,7 +3879,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3783,7 +3891,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3795,7 +3903,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3807,7 +3915,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3819,7 +3927,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3831,7 +3939,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3843,7 +3951,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3855,7 +3963,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3867,7 +3975,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3879,7 +3987,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -3891,7 +3999,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3903,7 +4011,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3915,7 +4023,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3927,7 +4035,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3939,7 +4047,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3951,7 +4059,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3963,7 +4071,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3975,7 +4083,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3987,7 +4095,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -3999,7 +4107,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -4011,7 +4119,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -4023,7 +4131,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "石川県",
       "agency": "近畿中部防衛局",
       "case_type": "工事",
@@ -4035,7 +4143,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "岐阜県",
       "case_type": "建築・解体",
@@ -4047,7 +4155,7 @@
       "source_url": "https://www.pref.gifu.lg.jp/bid/search/search.php"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -4059,7 +4167,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4071,7 +4179,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4083,7 +4191,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -4095,7 +4203,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4107,7 +4215,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4119,7 +4227,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -4131,7 +4239,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "設計・測量・コンサル",
@@ -4143,7 +4251,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/gyomu/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4155,7 +4263,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4167,7 +4275,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4179,7 +4287,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4191,7 +4299,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4203,7 +4311,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4215,7 +4323,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "岐阜県",
       "agency": "近畿中部防衛局",
       "case_type": "建築・解体",
@@ -4227,7 +4335,7 @@
       "source_url": "https://www.mod.go.jp/rdb/kinchu/contract/construction/about/koji/07ippan.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "公募・プロポーザル",
@@ -4239,7 +4347,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "法務省",
       "case_type": "工事",
@@ -4251,7 +4359,7 @@
       "source_url": "https://www.moj.go.jp/chotatsu_index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "人事院",
       "case_type": "工事",
@@ -4263,43 +4371,7 @@
       "source_url": "https://www.jinji.go.jp/shinsei/tyoutatu.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "工事",
-      "title": "特定調達品目(公共工事)調達実績概要",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/env/pdf/environmental_articles_r7_03.pdf",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "工事",
-      "title": "特定調達品目(公共工事)調達実績概要",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/env/pdf/environmental_articles_r6_03.pdf",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "工事",
-      "title": "特定調達品目(公共工事)調達実績概要",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/env/pdf/environmental_articles_r5_03.pdf",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "経済産業省",
       "case_type": "工事",
@@ -4311,7 +4383,7 @@
       "source_url": "https://www.meti.go.jp/information/publicoffer/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "経済産業省",
       "case_type": "工事",
@@ -4323,7 +4395,7 @@
       "source_url": "https://www.meti.go.jp/information/publicoffer/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "工事",
@@ -4335,7 +4407,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "法務省",
       "case_type": "工事",
@@ -4347,7 +4419,7 @@
       "source_url": "https://www.moj.go.jp/chotatsu_index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "役務",
@@ -4359,7 +4431,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "設計・測量・コンサル",
@@ -4371,7 +4443,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "厚生労働省",
       "case_type": "設計・測量・コンサル",
@@ -4383,43 +4455,7 @@
       "source_url": "https://www.mhlw.go.jp/stf/shinsei_boshu/choutatsujouhou/chotatu/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "設計・測量・コンサル",
-      "title": "建設工事、測量、建設コンサルタント等関係",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/info/consult/index.html",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "設計・測量・コンサル",
-      "title": "建設工事、測量、建設コンサルタント等関係",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/result/consult/index.html",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "工事",
-      "title": "工事請負契約等に係る指名停止等の措置要領",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/public/pdf/shimeiteishi_r2.pdf",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "防衛省",
       "case_type": "役務",
@@ -4431,7 +4467,7 @@
       "source_url": "https://www.mod.go.jp/j/budget/chotatsu/"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "工事",
@@ -4443,7 +4479,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "法務省",
       "case_type": "工事",
@@ -4455,7 +4491,7 @@
       "source_url": "https://www.moj.go.jp/chotatsu_index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "公募・プロポーザル",
@@ -4467,7 +4503,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "金融庁",
       "case_type": "建築・解体",
@@ -4479,7 +4515,7 @@
       "source_url": "https://www.fsa.go.jp/common/choutatu/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "財務省",
       "case_type": "公募・プロポーザル",
@@ -4491,7 +4527,7 @@
       "source_url": "https://www.mof.go.jp/application-contact/procurement/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "財務省",
       "case_type": "公募・プロポーザル",
@@ -4503,7 +4539,7 @@
       "source_url": "https://www.mof.go.jp/application-contact/procurement/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "公募・プロポーザル",
@@ -4515,7 +4551,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "公募・プロポーザル",
@@ -4527,7 +4563,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "設計・測量・コンサル",
@@ -4539,7 +4575,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "工事",
@@ -4551,7 +4587,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "警察庁",
       "case_type": "工事",
@@ -4563,19 +4599,7 @@
       "source_url": "https://www.npa.go.jp/news/procurement/npa/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
-      "prefecture": "全国",
-      "agency": "会計検査院",
-      "case_type": "工事",
-      "title": "公共工事に係る談合情報対応マニュアル",
-      "announcement_date": "",
-      "url": "https://www.jbaudit.go.jp/proc/public/pdf/dangou_manual.pdf",
-      "source": "会計検査院 調達情報",
-      "source_id": "ministry-jbaudit",
-      "source_url": "https://www.jbaudit.go.jp/proc/"
-    },
-    {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "経済産業省",
       "case_type": "工事",
@@ -4587,7 +4611,7 @@
       "source_url": "https://www.meti.go.jp/information/publicoffer/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "役務",
@@ -4599,7 +4623,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "国土交通省",
       "case_type": "役務",
@@ -4611,7 +4635,7 @@
       "source_url": "https://www.mlit.go.jp/appli/file000001.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "農林水産省",
       "case_type": "設計・測量・コンサル",
@@ -4623,7 +4647,7 @@
       "source_url": "https://www.maff.go.jp/j/supply/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "人事院",
       "case_type": "役務",
@@ -4635,7 +4659,7 @@
       "source_url": "https://www.jinji.go.jp/shinsei/tyoutatu.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "宮内庁",
       "case_type": "設計・測量・コンサル",
@@ -4647,7 +4671,7 @@
       "source_url": "https://www.kunaicho.go.jp/kunaicho/chotatsu/"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "デジタル庁",
       "case_type": "公募・プロポーザル",
@@ -4659,7 +4683,7 @@
       "source_url": "https://www.digital.go.jp/procurement"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "経済産業省",
       "case_type": "役務",
@@ -4671,7 +4695,7 @@
       "source_url": "https://www.meti.go.jp/information/publicoffer/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "経済産業省",
       "case_type": "設計・測量・コンサル",
@@ -4683,7 +4707,7 @@
       "source_url": "https://www.meti.go.jp/information/publicoffer/index.html"
     },
     {
-      "retrieved_at": "2026-10-21 04:47:28",
+      "retrieved_at": "2026-10-22 04:52:59",
       "prefecture": "全国",
       "agency": "経済産業省",
       "case_type": "設計・測量・コンサル",
